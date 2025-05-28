@@ -1,4 +1,4 @@
-nested1 = [  # type: ignore
+nested1 = {  # type: ignore
     "mystock1" : {
       "Product" : "SSD" ,
       "Price" : 3000,
@@ -23,7 +23,7 @@ nested1 = [  # type: ignore
       "Quantity" : 10,
       "Instock" : "No"
     },
-]
+}
 
 print(nested1)  # type: ignore
 print(nested1["mystock3"]["Price"])   # type: ignore
